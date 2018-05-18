@@ -1,21 +1,43 @@
 /*
-Error: File to import not found or unreadable: pages/homepage.
-        on line 36 of sass/style.scss
+Error: Invalid CSS after "...ckground-image:": expected expression (e.g. 1px, bold), was "}"
+        on line 7 of sass/pages/_homepage.scss
+        from line 36 of sass/style.scss
 
-31: @import "base/fonts";
-32: @import "base/grid";
-33: @import "base/buttons";
-34: @import "modules/navbar";
-35: @import "modules/footer";
-36: @import "pages/homepage";
+2:   background-color: blue;
+3: }
+4: 
+5: .banner {
+6:   background-image: 
+7: }
 
 Backtrace:
+sass/pages/_homepage.scss:7
 sass/style.scss:36
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:44:in `import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/lexer.rb:231:in `expected!'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/parser.rb:724:in `assert_expr'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/parser.rb:68:in `parse'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1134:in `sass_script'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:988:in `value!'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:796:in `block in try_declaration'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1254:in `rethrow'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:809:in `try_declaration'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
@@ -54,4 +76,4 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: pages/homepage.\A         on line 36 of sass/style.scss\A \A 31: @import \"base/fonts\";\A 32: @import \"base/grid\";\A 33: @import \"base/buttons\";\A 34: @import \"modules/navbar\";\A 35: @import \"modules/footer\";\A 36: @import \"pages/homepage\";"; }
+  content: "Error: Invalid CSS after \"...ckground-image:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 7 of sass/pages/_homepage.scss\A         from line 36 of sass/style.scss\A \A 2:   background-color: blue;\A 3: }\A 4: \A 5: .banner {\A 6:   background-image: \A 7: }"; }
