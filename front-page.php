@@ -2,7 +2,7 @@
 
 <section class="banner">
   <div class="right-top">
-    <p><strong>Coming to Canada <br> made simple.</strong></p>  
+    <p><strong>Coming to Canada <br> made simple.</strong></p>
   </div>
 
 </section>

@@ -28,8 +28,11 @@
       <!-- navbar left -->
 			<div class="nav-left">
         <?php the_custom_logo(); ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><?php bloginfo( 'name' ); ?></h3></a>
-      </div>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><<?php bloginfo( 'name' ); ?></h3></a>
+				<img src="./image/b2c-logo-website.png" alt="Home page" >
+				<img src="<?php echo get_template_directory_uri(); ?>/images/filename.png">
+
+			</div>
       <!-- navbar middle -->
       <div class="nav-middle">
         <?php
@@ -42,7 +45,9 @@
       <!-- navbar right -->
       <div class="nav-right">
         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
-				<a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+				<a href=""><button class="nav-contact" type="button" name="button">About</button></a>
+				<a href=""><button class="nav-contact" type="button" name="button">Objectives</button></a>
+				<a href=""><button class="nav-contact" type="button" name="button">Contact</button></a>
       </div>
 		</nav>
 	</header>
