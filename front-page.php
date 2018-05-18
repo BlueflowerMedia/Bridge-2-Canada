@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<h1>test message</h1>
-<p>Hello world</p>
-
 <section class="banner">
-  
+  <div class="right-top">
+    <p><strong>Coming to Canada <br> made simple.</strong></p>
+  </div>
+
 </section>
 
 <?php get_footer(); ?>
