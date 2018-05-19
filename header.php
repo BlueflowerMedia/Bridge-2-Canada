@@ -27,27 +27,21 @@
 		<nav id="site-navigation" class="main-navigation fixed container-navbar">
       <!-- navbar left -->
 			<div class="nav-left">
-        <?php the_custom_logo(); ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><<?php bloginfo( 'name' ); ?></h3></a>
-				<img src="./image/b2c-logo-website.png" alt="Home page" >
-				<img src="<?php echo get_template_directory_uri(); ?>/images/filename.png">
+
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="Bridge 2 Canada"></a>
+
 
 			</div>
-      <!-- navbar middle -->
-      <div class="nav-middle">
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'menu-1',
-            'menu_id'        => 'primary-menu',
-          ) );
-        ?>
-      </div>
+
+
       <!-- navbar right -->
       <div class="nav-right">
-        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
-				<a href=""><button class="nav-contact" type="button" name="button">About</button></a>
-				<a href=""><button class="nav-contact" type="button" name="button">Objectives</button></a>
-				<a href=""><button class="nav-contact" type="button" name="button">Contact</button></a>
+		<ul>
+			<li><a href=""><button class="nav-about" type="button" name="button">About</button></a></li>
+			<li><a href=""><button class="nav-objectives" type="button" name="button">Objectives</button></a></li>
+			<li><a href=""><button class="nav-Contact" type="button" name="button">Contact</button></a></li>
+		</ul>
+
       </div>
 		</nav>
 	</header>
