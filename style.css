@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
 Theme Name: blueflowermedia
 Theme URI: http://underscores.me/
@@ -19,82 +18,6 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-=======
-/*
-Error: Invalid CSS after "...ckground-image:": expected expression (e.g. 1px, bold), was "}"
-        on line 7 of sass/pages/_homepage.scss
-        from line 36 of sass/style.scss
-
-2:   background-color: blue;
-3: }
-4: 
-5: .banner {
-6:   background-image: 
-7: }
-
-Backtrace:
-sass/pages/_homepage.scss:7
-sass/style.scss:36
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/lexer.rb:231:in `expected!'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/parser.rb:724:in `assert_expr'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/parser.rb:68:in `parse'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1134:in `sass_script'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:988:in `value!'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:796:in `block in try_declaration'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1254:in `rethrow'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:809:in `try_declaration'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:20:in `render'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:290:in `render'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
->>>>>>> 32d52c1ed1aec30d6a21e5e9a9da3d60095a946c
 */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1477,7 +1400,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-color: blue; }
+  background-color: white;
+  font-family: "Roboto", sans-serif; }
 
 .banner {
   background-image: url(images/pexels-photo-756790.jpeg);
@@ -1487,9 +1411,87 @@ body {
   height: 70vh; }
   .banner .right-top {
     position: absolute;
-    margin-left: 50%;
-    margin-top: 15%; }
+    margin-left: 55%;
+    margin-top: 10%; }
     .banner .right-top p {
-      font-family: "Roboto", sans-serif;
       font-size: 2.5rem;
-      line-height: 1.3rem; }
+      line-height: 1.4; }
+
+.aboutus .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 15vh; }
+.aboutus .separator::before, .aboutus .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 15px solid #bf1e2e; }
+.aboutus .separator::before {
+  margin-right: 1.5em; }
+.aboutus .separator::after {
+  margin-left: 1.5em; }
+.aboutus .aboutus-bottom {
+  background-image: url(images/StockSnap_NULPYDG6J4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(121, 121, 116, 0.8);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .aboutus .aboutus-bottom p {
+    width: 50%;
+    font-size: 1.2rem;
+    color: white; }
+
+.objectives {
+  /*
+  .objectives-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    .image-1-description, .image-2-description, .image-1, .image-2 {
+      flex: 1;
+      min-width: 500px;
+    }
+    ul {
+      padding-left: 50px;
+      list-style-image: url(images/b2c-icon-maple-leaf.png);
+    }
+  }
+  */ }
+  .objectives .objectives-top {
+    background-color: #bf1e2e; }
+    .objectives .objectives-top .separator2 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 15vh; }
+      .objectives .objectives-top .separator2 h2 {
+        color: white; }
+    .objectives .objectives-top .separator2::before, .objectives .objectives-top .separator2::after {
+      content: '';
+      flex: 1;
+      border-bottom: 15px solid white; }
+    .objectives .objectives-top .separator2::before {
+      margin-right: 1.5em; }
+    .objectives .objectives-top .separator2::after {
+      margin-left: 1.5em; }
+  .objectives .objectives-bottom {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); }
+    @media only screen and (max-width: 1200px) {
+      .objectives .objectives-bottom {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); } }
+    @media only screen and (max-width: 600px) {
+      .objectives .objectives-bottom {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
+    .objectives .objectives-bottom img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .objectives .objectives-bottom ul {
+      padding-left: 50px;
+      padding-right: 10px;
+      list-style-image: url(images/b2c-icon-maple-leaf.png); }
