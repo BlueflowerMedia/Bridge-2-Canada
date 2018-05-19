@@ -122,19 +122,87 @@ body {
       list-style-image: url(images/b2c-icon-maple-leaf.png);
     }
   }
+}
 
-  /*
-  .objectives-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    .image-1-description, .image-2-description, .image-1, .image-2 {
-      flex: 1;
-      min-width: 500px;
+//Contact us section
+.contactus {
+  .contactus-top {
+    background-color: $white;
+    .separator3 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+        h2 {
+          color: $black;
+        }
     }
-    ul {
-      padding-left: 50px;
-      list-style-image: url(images/b2c-icon-maple-leaf.png);
+    .separator3::before, .separator3::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $red;
+    }
+    .separator3::before {
+        margin-right: 1.5em;
+    }
+    .separator3::after {
+        margin-left: 1.5em;
     }
   }
-  */
+
+  .contactus-middle p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contactus-bottom {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .contactus-left {
+      flex: 1;
+      p {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+    }
+    .contactus-right {
+      flex: 1;
+        form input, textarea {
+        background-color: $brown;
+        color: $white;
+      }
+      .wpcf7-submit {
+        text-transform: uppercase;
+        background-color: $red;
+        color: $white;
+        font-size: 1.5rem;
+      }
+      label {
+        font-size: 1.2rem;
+      }
+      .req {
+        color: $red;
+      }
+    }
+  }
+
+}
+
+//footer
+.site-footer {
+  background-color: $black;
+  p {
+    color: $white;
+    font-size: 1.5rem;
+  }
+  .footer-container {
+    margin: 40px;
+    text-align: center;
+  }
 }

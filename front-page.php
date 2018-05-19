@@ -57,8 +57,29 @@ to know.</p>
             such as, sudden disability, illness, death and other problems.</li>
       </ul>
     </div>
-
   </div>
+</section>
+
+<!-- Contact us -->
+<section class="contactus">
+  <div class="contactus-top">
+    <div class="separator3"><h2>Contact</h2></div>
+  </div>
+  <div class="contactus-middle">
+    <p>We would love to hear from you, and we will reply to
+        your email withing 48 hours.</p>
+  </div>
+  <div class="contactus-bottom">
+    <div class="contactus-left">
+      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416) 123-1234</strong></p>
+      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="image"> <strong>123 Danforth Ave, Scarborough ON</strong></p>
+      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>bridge2ca@gmail.com</strong></p>
+    </div>
+    <div class="contactus-right">
+      <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); } ?>
+    </div>
+  </div>
+
 </section>
 
 <?php get_footer(); ?>

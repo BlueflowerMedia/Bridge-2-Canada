@@ -1445,53 +1445,95 @@ body {
     font-size: 1.2rem;
     color: white; }
 
-.objectives {
-  /*
-  .objectives-bottom {
+.objectives .objectives-top {
+  background-color: #bf1e2e; }
+  .objectives .objectives-top .separator2 {
     display: flex;
-    flex-wrap: wrap;
-    .image-1-description, .image-2-description, .image-1, .image-2 {
-      flex: 1;
-      min-width: 500px;
-    }
-    ul {
-      padding-left: 50px;
-      list-style-image: url(images/b2c-icon-maple-leaf.png);
-    }
-  }
-  */ }
-  .objectives .objectives-top {
-    background-color: #bf1e2e; }
-    .objectives .objectives-top .separator2 {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      height: 15vh; }
-      .objectives .objectives-top .separator2 h2 {
-        color: white; }
-    .objectives .objectives-top .separator2::before, .objectives .objectives-top .separator2::after {
-      content: '';
-      flex: 1;
-      border-bottom: 15px solid white; }
-    .objectives .objectives-top .separator2::before {
-      margin-right: 1.5em; }
-    .objectives .objectives-top .separator2::after {
-      margin-left: 1.5em; }
-  .objectives .objectives-bottom {
-    display: grid;
-    grid-template-rows: repeat(2, min-content);
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); }
-    @media only screen and (max-width: 1200px) {
-      .objectives .objectives-bottom {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); } }
-    @media only screen and (max-width: 600px) {
-      .objectives .objectives-bottom {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
-    .objectives .objectives-bottom img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
-    .objectives .objectives-bottom ul {
-      padding-left: 50px;
-      padding-right: 10px;
-      list-style-image: url(images/b2c-icon-maple-leaf.png); }
+    align-items: center;
+    text-align: center;
+    height: 15vh; }
+    .objectives .objectives-top .separator2 h2 {
+      color: white; }
+  .objectives .objectives-top .separator2::before, .objectives .objectives-top .separator2::after {
+    content: '';
+    flex: 1;
+    border-bottom: 15px solid white; }
+  .objectives .objectives-top .separator2::before {
+    margin-right: 1.5em; }
+  .objectives .objectives-top .separator2::after {
+    margin-left: 1.5em; }
+.objectives .objectives-bottom {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); }
+  @media only screen and (max-width: 1200px) {
+    .objectives .objectives-bottom {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); } }
+  @media only screen and (max-width: 600px) {
+    .objectives .objectives-bottom {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
+  .objectives .objectives-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .objectives .objectives-bottom ul {
+    padding-left: 50px;
+    padding-right: 10px;
+    list-style-image: url(images/b2c-icon-maple-leaf.png); }
+
+.contactus .contactus-top {
+  background-color: white; }
+  .contactus .contactus-top .separator3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 15vh; }
+    .contactus .contactus-top .separator3 h2 {
+      color: #2a2a2a; }
+  .contactus .contactus-top .separator3::before, .contactus .contactus-top .separator3::after {
+    content: '';
+    flex: 1;
+    border-bottom: 15px solid #bf1e2e; }
+  .contactus .contactus-top .separator3::before {
+    margin-right: 1.5em; }
+  .contactus .contactus-top .separator3::after {
+    margin-left: 1.5em; }
+.contactus .contactus-middle p {
+  font-size: 1.5rem;
+  text-align: center; }
+.contactus .contactus-bottom {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .contactus .contactus-bottom .contactus-left {
+    flex: 1; }
+    .contactus .contactus-bottom .contactus-left p {
+      font-size: 1.5rem; }
+    .contactus .contactus-bottom .contactus-left img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px; }
+  .contactus .contactus-bottom .contactus-right {
+    flex: 1; }
+    .contactus .contactus-bottom .contactus-right form input, .contactus .contactus-bottom .contactus-right textarea {
+      background-color: #2f302e;
+      color: white; }
+    .contactus .contactus-bottom .contactus-right .wpcf7-submit {
+      text-transform: uppercase;
+      background-color: #bf1e2e;
+      color: white;
+      font-size: 1.5rem; }
+    .contactus .contactus-bottom .contactus-right label {
+      font-size: 1.2rem; }
+    .contactus .contactus-bottom .contactus-right .req {
+      color: #bf1e2e; }
+
+.site-footer {
+  background-color: #2a2a2a; }
+  .site-footer p {
+    color: white;
+    font-size: 1.5rem; }
+  .site-footer .footer-container {
+    margin: 40px;
+    text-align: center; }
