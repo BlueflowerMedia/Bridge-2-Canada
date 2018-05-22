@@ -1,4 +1,4 @@
-.container-navbar {
+/*.container-navbar {
 	padding: 10px 10%;
 }
 
@@ -66,16 +66,40 @@ nav#site-navigation .nav-right {}
 		bottom: 0%;
 		left: 10px;
 		//background: $yellow;
-		/* box-shadow: 2px 2px 0 #000000; */
+		/* box-shadow: 2px 2px 0 #000000; 
 		z-index: -1;
 		transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2);
 	}
 
 	&:hover {
-		/* color: white; */
+		/* color: white; 
 		&:after {
 			transform: scaleY(0.25) translateY(25px);
 			box-shadow: none;
 		}
 	}
 }
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a{
+	display:block;
+    font-family: $font-primary;  
+	text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav-right{
+height: 100px;
+width: 100px;
+}
+
+
+

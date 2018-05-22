@@ -28,7 +28,7 @@
       <!-- navbar left -->
 			<div class="nav-left">
 
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="Bridge 2 Canada"></a>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png"  height="300px" width="300px" alt="Bridge 2 Canada"></a>
 
 
 			</div>
@@ -37,9 +37,9 @@
       <!-- navbar right -->
       <div class="nav-right">
 		<ul>
-			<li><a href=""><button class="nav-about" type="button" name="button">About</button></a></li>
-			<li><a href=""><button class="nav-objectives" type="button" name="button">Objectives</button></a></li>
-			<li><a href=""><button class="nav-Contact" type="button" name="button">Contact</button></a></li>
+			<li><a href="" >About</button></a></li>
+			<li><a href="" >Objectives</button></a></li>
+			<li><a href="" >Contact</button></a></li>
 		</ul>
 
       </div>
@@ -47,3 +47,7 @@
 	</header>
 
 	<div id="content" class="site-content">
+	</header>
+</div>
+</body>
+</html>

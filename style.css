@@ -1416,3 +1416,12 @@ body {
       font-family: "Roboto", sans-serif;
       font-size: 2.5rem;
       line-height: 1.3rem; }
+
+li a {
+  font-family: "Roboto", sans-serif;
+  padding-top: 70px;
+  font-size: 30px; }
+
+.nav-left {
+  height: 100px;
+  width: 100px; }
