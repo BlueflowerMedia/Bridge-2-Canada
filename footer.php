@@ -15,13 +15,9 @@
 
 	<div class="margin-for-footer"></div>
 	<footer id="colophon" class="site-footer">
-    <div class="container flex-row">
-      <div class="footer-left flex1">
-        <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
-      </div>
-      <div class="footer-right flex1">
-      </div>
-    </div>
+		<div class="footer-container">
+				<p>&copy; <?php echo date("Y"); ?>. Bridge 2 Canada Inc. All Rights Reserved.</p>
+		</div>
 </footer>
 
 <?php wp_footer(); ?>

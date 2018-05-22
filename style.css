@@ -1400,7 +1400,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-color: blue; }
+  background-color: white;
+  font-family: "Roboto", sans-serif; }
 
 .banner {
   background-image: url(images/pexels-photo-756790.jpeg);
@@ -1410,11 +1411,11 @@ body {
   height: 70vh; }
   .banner .right-top {
     position: absolute;
-    margin-left: 50%;
-    margin-top: 15%; }
+    margin-left: 55%;
+    margin-top: 10%; }
     .banner .right-top p {
-      font-family: "Roboto", sans-serif;
       font-size: 2.5rem;
+<<<<<<< HEAD
       line-height: 1.3rem; }
 
 li a {
@@ -1425,3 +1426,127 @@ li a {
 .nav-left {
   height: 100px;
   width: 100px; }
+=======
+      line-height: 1.4; }
+
+.aboutus .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 15vh; }
+.aboutus .separator::before, .aboutus .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 15px solid #bf1e2e; }
+.aboutus .separator::before {
+  margin-right: 1.5em; }
+.aboutus .separator::after {
+  margin-left: 1.5em; }
+.aboutus .aboutus-bottom {
+  background-image: url(images/StockSnap_NULPYDG6J4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(121, 121, 116, 0.8);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .aboutus .aboutus-bottom p {
+    width: 50%;
+    font-size: 1.2rem;
+    color: white; }
+
+.objectives .objectives-top {
+  background-color: #bf1e2e; }
+  .objectives .objectives-top .separator2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 15vh; }
+    .objectives .objectives-top .separator2 h2 {
+      color: white; }
+  .objectives .objectives-top .separator2::before, .objectives .objectives-top .separator2::after {
+    content: '';
+    flex: 1;
+    border-bottom: 15px solid white; }
+  .objectives .objectives-top .separator2::before {
+    margin-right: 1.5em; }
+  .objectives .objectives-top .separator2::after {
+    margin-left: 1.5em; }
+.objectives .objectives-bottom {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); }
+  @media only screen and (max-width: 1200px) {
+    .objectives .objectives-bottom {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); } }
+  @media only screen and (max-width: 600px) {
+    .objectives .objectives-bottom {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
+  .objectives .objectives-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .objectives .objectives-bottom ul {
+    padding-left: 50px;
+    padding-right: 10px;
+    list-style-image: url(images/b2c-icon-maple-leaf.png); }
+
+.contactus .contactus-top {
+  background-color: white; }
+  .contactus .contactus-top .separator3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 15vh; }
+    .contactus .contactus-top .separator3 h2 {
+      color: #2a2a2a; }
+  .contactus .contactus-top .separator3::before, .contactus .contactus-top .separator3::after {
+    content: '';
+    flex: 1;
+    border-bottom: 15px solid #bf1e2e; }
+  .contactus .contactus-top .separator3::before {
+    margin-right: 1.5em; }
+  .contactus .contactus-top .separator3::after {
+    margin-left: 1.5em; }
+.contactus .contactus-middle p {
+  font-size: 1.5rem;
+  text-align: center; }
+.contactus .contactus-bottom {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .contactus .contactus-bottom .contactus-left {
+    flex: 1; }
+    .contactus .contactus-bottom .contactus-left p {
+      font-size: 1.5rem; }
+    .contactus .contactus-bottom .contactus-left img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px; }
+  .contactus .contactus-bottom .contactus-right {
+    flex: 1; }
+    .contactus .contactus-bottom .contactus-right form input, .contactus .contactus-bottom .contactus-right textarea {
+      background-color: #2f302e;
+      color: white; }
+    .contactus .contactus-bottom .contactus-right .wpcf7-submit {
+      text-transform: uppercase;
+      background-color: #bf1e2e;
+      color: white;
+      font-size: 1.5rem; }
+    .contactus .contactus-bottom .contactus-right label {
+      font-size: 1.2rem; }
+    .contactus .contactus-bottom .contactus-right .req {
+      color: #bf1e2e; }
+
+.site-footer {
+  background-color: #2a2a2a; }
+  .site-footer p {
+    color: white;
+    font-size: 1.5rem; }
+  .site-footer .footer-container {
+    margin: 40px;
+    text-align: center; }
+>>>>>>> 6d5c79b0e835f9f953b88bd7fb5e3f81e312b08d
