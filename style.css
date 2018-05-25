@@ -1399,6 +1399,17 @@ body {
   background-color: white;
   font-family: "Roboto", sans-serif; }
 
+.top-navigation {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .top-navigation .nav-item-left a > img {
+    width: auto;
+    height: 60px; }
+  .top-navigation .nav-item-right ul {
+    display: flex; }
+
 .banner {
   background-image: url(images/pexels-photo-756790.jpeg);
   background-size: cover;
@@ -1413,18 +1424,18 @@ body {
       font-size: 2.5rem;
       line-height: 1.4; }
 
-.aboutus .separator {
+.aboutus .aboutus-top .separator {
   display: flex;
   align-items: center;
   text-align: center;
   height: 15vh; }
-.aboutus .separator::before, .aboutus .separator::after {
+.aboutus .aboutus-top .separator::before, .aboutus .aboutus-top .separator::after {
   content: '';
   flex: 1;
   border-bottom: 15px solid #bf1e2e; }
-.aboutus .separator::before {
+.aboutus .aboutus-top .separator::before {
   margin-right: 1.5em; }
-.aboutus .separator::after {
+.aboutus .aboutus-top .separator::after {
   margin-left: 1.5em; }
 .aboutus .aboutus-bottom {
   background-image: url(images/StockSnap_NULPYDG6J4.jpg);
@@ -1473,20 +1484,20 @@ body {
     height: 100%;
     object-fit: cover; }
   .objectives .objectives-bottom ul {
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 10px;
     list-style-image: url(images/b2c-icon-maple-leaf.png); }
 
 .row {
   display: flex; }
-  .row ul.no_bullet {
+  .row .no_bullet {
     font-family: "Roboto", sans-serif;
     font-size: auto;
     font-weight: bold;
     list-style-type: none;
     flex: 1;
     line-height: 25px; }
-    .row ul.no_bullet li.icon {
+    .row .no_bullet li.icon {
       background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
       padding-left: 60px;
       padding-right: 20px;
@@ -1575,3 +1586,7 @@ body {
   .site-footer .footer-container {
     margin: 40px;
     text-align: center; }
+
+.topnav {
+  display: flex;
+  justify-content: space-between; }
