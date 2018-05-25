@@ -34,28 +34,26 @@
 
 }
 img {
-    width:350px;
+    width:75%;
     height:auto;
-    margin:0px 60px;
-
 }
 .topnav .icon {
   display: none;
 }
 
-@media screen and (max-width: 840px) {
- .topnav a:not(:last-child) {display: none;}
+
+@media screen and (max-width: 760px) {
+ .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 760px) {
   .topnav.responsive {
     position: right;
-    align-items: none
-  }
+}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
