@@ -1,0 +1,291 @@
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white;
+  font-family: $font-primary;
+}
+
+.top-navigation {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .nav-item-left {
+    a>img {
+      width:auto;
+      height: 60px;
+    }
+  }
+  .nav-item-right {
+    ul {
+      display: flex;
+    }
+  }
+}
+
+//banner section
+.banner {
+  background-image: url(images/pexels-photo-756790.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  .right-top {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 10%;
+    p {
+      font-size: 2.5rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+//About us section
+.aboutus {
+  .aboutus-top {
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+    }
+    .separator::before, .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $red;
+    }
+    .separator::before {
+        margin-right: 1.5em;
+    }
+    .separator::after {
+        margin-left: 1.5em;
+    }
+  }
+
+  .aboutus-bottom {
+    background-image: url(images/StockSnap_NULPYDG6J4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba($lighter-white,.8);
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      width: 50%;
+      font-size: 1.2rem;
+      color: $white;
+    }
+  }
+
+}
+
+//Objectives section
+.objectives {
+  .objectives-top {
+    background-color: $red;
+    .separator2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+        h2 {
+          color: $white;
+        }
+    }
+    .separator2::before, .separator2::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $white;
+    }
+    .separator2::before {
+        margin-right: 1.5em;
+    }
+    .separator2::after {
+        margin-left: 1.5em;
+    }
+  }
+
+  //CSS grid
+  .objectives-bottom {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+    @media only screen and (max-width: 1200px){
+      grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    }
+    @media only screen and (max-width: 600px){
+      grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    ul {
+      padding-left: 70px;
+      padding-right: 10px;
+      list-style-image: url(images/b2c-icon-maple-leaf.png);
+
+
+    }
+  }
+}
+
+//objectives using flexbox
+.row{
+  display: flex;
+  .no_bullet {
+    font-family: $font-primary;
+    font-size: auto;
+    font-weight: bold;
+    list-style-type: none;
+    flex: 1;
+    line-height: 25px;
+
+    li.icon{
+    background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
+
+
+padding-left: 60px;
+padding-right: 20px;
+padding-top: 3px;
+padding-bottom: 7%;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  @include mobile{
+    flex-flow: column;
+  }
+  .content{
+    flex:1;
+
+    @include mobile {
+      order: 2;
+    }
+  }
+  .image{
+    flex: 1;
+    @include mobile {
+      order: 1;
+    }
+  }
+}
+
+
+//Contact us section
+.contactus {
+  .contactus-top {
+    background-color: $white;
+    .separator3 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+        h2 {
+          color: $black;
+        }
+    }
+    .separator3::before, .separator3::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $red;
+    }
+    .separator3::before {
+        margin-right: 1.5em;
+    }
+    .separator3::after {
+        margin-left: 1.5em;
+    }
+  }
+
+  .contactus-middle p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .contactus-bottom {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .contactus-left {
+      flex: 1;
+      p {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+      }
+      @include mobile{
+        align-items: left;
+      }
+    }
+    .contactus-right {
+      flex: 1;
+
+      align-items:right;
+        form input, textarea {
+        background-color: $brown;
+        color: $white;
+            float: right;
+        @include mobile{
+          float: right;
+        }
+      }
+
+      .wpcf7-submit {
+        text-transform: uppercase;
+        background-color: $red;
+        color: $white;
+        font-size: 1.5rem;
+      }
+      label {
+        font-size: 1.2rem;
+      }
+      .req {
+        color: $red;
+      }
+    }
+  }
+
+}
+
+//footer
+.site-footer {
+  background-color: $black;
+  p {
+    color: $white;
+    font-size: 1.5rem;
+  }
+  .footer-container {
+    margin: 40px;
+    text-align: center;
+  }
+}
+//Navbar
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
