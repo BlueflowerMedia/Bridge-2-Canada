@@ -16,6 +16,24 @@ body {
   font-family: $font-primary;
 }
 
+.top-navigation {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .nav-item-left {
+    a>img {
+      width:auto;
+      height: 60px;
+    }
+  }
+  .nav-item-right {
+    ul {
+      display: flex;
+    }
+  }
+}
+
 //banner section
 .banner {
   background-image: url(images/pexels-photo-756790.jpeg);
@@ -36,22 +54,24 @@ body {
 
 //About us section
 .aboutus {
-  .separator {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      height: 15vh;
-  }
-  .separator::before, .separator::after {
-      content: '';
-      flex: 1;
-      border-bottom: 15px solid $red;
-  }
-  .separator::before {
-      margin-right: 1.5em;
-  }
-  .separator::after {
-      margin-left: 1.5em;
+  .aboutus-top {
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+    }
+    .separator::before, .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $red;
+    }
+    .separator::before {
+        margin-right: 1.5em;
+    }
+    .separator::after {
+        margin-left: 1.5em;
+    }
   }
 
   .aboutus-bottom {
@@ -117,7 +137,7 @@ body {
       object-fit: cover;
     }
     ul {
-      padding-left: 50px;
+      padding-left: 70px;
       padding-right: 10px;
       list-style-image: url(images/b2c-icon-maple-leaf.png);
     }
@@ -206,5 +226,3 @@ body {
     text-align: center;
   }
 }
-
-

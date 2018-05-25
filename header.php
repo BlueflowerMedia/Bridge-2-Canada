@@ -24,24 +24,18 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed container-navbar">
+		<nav id="site-navigation" class="top-navigation">
       <!-- navbar left -->
-			<div class="nav-left">
-
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png"  height="300px" width="300px" alt="Bridge 2 Canada"></a>
-
-
+			<div class="nav-item-left">
+        <a href="<?php echo get_home_url(); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="Bridge 2 Canada"></a>
 			</div>
-
-
       <!-- navbar right -->
-      <div class="nav-right">
-		<ul>
-			<li><a href="" >About</button></a></li>
-			<li><a href="" >Objectives</button></a></li>
-			<li><a href="" >Contact</button></a></li>
-		</ul>
-
+      <div class="nav-item-right">
+				<ul>
+					<li><a href="" >About</a></li>
+					<li><a href="" >Objectives</a></li>
+					<li><a href="" >Contact</a></li>
+				</ul>
       </div>
 		</nav>
 	</header>
