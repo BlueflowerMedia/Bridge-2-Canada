@@ -149,24 +149,18 @@ body {
 //objectives using flexbox
 .row{
   display: flex;
-
-
-
-  ul.no_bullet {
+  .no_bullet {
     font-family: $font-primary;
     font-size: auto;
     font-weight: bold;
     list-style-type: none;
     flex: 1;
-
-    li.icon{
-    background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
-
-
-padding-left: 60px;
-padding-right: 100px;
-padding-top: 3px;
-padding-bottom: 7%;
+    .icon {
+      background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
+      padding-left: 60px;
+      padding-right: 100px;
+      padding-top: 3px;
+      padding-bottom: 7%;
     }
   }
   img {
@@ -285,4 +279,9 @@ padding-bottom: 7%;
     margin: 40px;
     text-align: center;
   }
+}
+//Navbar
+.topnav {
+  display: flex;
+  justify-content: space-between;
 }

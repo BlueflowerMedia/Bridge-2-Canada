@@ -61,8 +61,6 @@ to know.</p>
 </section>
 
 <!--Objectives-new-->
-
-
 <section class="objective">
 <div class="row">
   <div class="content">
@@ -77,12 +75,11 @@ to know.</p>
         rapport, and cooperation with other ethnic groups</li>
     </ul>
   </div>
-
   <div class="image">
     <img src="<?php echo get_template_directory_uri(); ?>/images/architecture-attraction-british-columbia-63332.jpg" alt="image">
   </div>
 </div>
-<br>
+
 <div class="row">
   <div class="image">
     <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-photo-313693.jpeg" alt="image">
@@ -108,10 +105,6 @@ to know.</p>
 </div>
 
 </section>
-
-
-
-
 
 <!-- Contact us -->
 <section class="contactus" id="contacts">

@@ -21,42 +21,18 @@
 	<?php wp_head(); ?>
 </head>
 
-<<<<<<< HEAD
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="top-navigation">
-      <!-- navbar left -->
-			<div class="nav-item-left">
-        <a href="<?php echo get_home_url(); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="Bridge 2 Canada"></a>
-			</div>
-      <!-- navbar right -->
-      <div class="nav-item-right">
-				<ul>
-					<li><a href="" >About</a></li>
-					<li><a href="" >Objectives</a></li>
-					<li><a href="" >Contact</a></li>
-				</ul>
-      </div>
-		</nav>
-	</header>
-
-	<div id="content" class="site-content">
-	</header>
-=======
 <body>
 <div class="topnav" id="myTopnav">
+	<div class="logo">
+		<a href="#" id="nav-left" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+	</div>
+	<div class="options">
+		<a href="#" id="aboutlink">About</a>
+		<a href="#" id="objectiveslink">Objectives</a>
+		<a href="#" id="contactslink">Contact</a>
+		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
 
-
-			<a href="#" id="nav-left" class="responsive" style="flex-grow: 1"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
-			<a style="flex-grow: 8"></a>
-			<a href="#" id="aboutlink" style="flex-grow: 1">About</a>
-			<a href="#" id="objectiveslink" style="flex-grow: 1">Objectives</a>
-			<a href="#" id="contactslink" style="flex-grow: 1">Contact</a>
-  		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
->>>>>>> c1d22d77fc0d1ffa5f01493d7c639ff9f1565965
 </div>
 
 </body>
