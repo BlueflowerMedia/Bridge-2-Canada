@@ -4,8 +4,10 @@
   display: flex;
   align-items: stretch;
   line-height: 60px;
+  height: 80px;
   @include mobile {
     display: block;
+    height: auto;
   }
 }
 
@@ -43,9 +45,13 @@ img {
 
 
 @media screen and (max-width: 760px) {
- .topnav a:not(:first-child) {display: none;}
+ //.topnav a:not(:first-child) {display: none;}
+ .topnav {
+   .options a {display: none;}
+ }
+
   .topnav a.icon {
-    float: right;
+    float: center;
     display: block;
   }
 }

@@ -24,7 +24,7 @@
 <body>
 <div class="topnav" id="myTopnav">
 	<div class="logo">
-		<a href="#" id="nav-left" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+		<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
 	</div>
 	<div class="options">
 		<a href="#" id="aboutlink">About</a>
