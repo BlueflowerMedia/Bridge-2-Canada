@@ -82,7 +82,6 @@ to know.</p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/architecture-attraction-british-columbia-63332.jpg" alt="image">
   </div>
 </div>
-<br>
 <div class="row">
   <div class="image">
     <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-photo-313693.jpeg" alt="image">

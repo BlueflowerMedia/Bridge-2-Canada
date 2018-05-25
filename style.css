@@ -1359,24 +1359,22 @@ button.nav-contact {
   color: white; }
 
 img {
-  width: 350px;
-  height: auto;
-  margin: 0px 60px; }
+  width: 75%;
+  height: auto; }
 
 .topnav .icon {
   display: none; }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 760px) {
   .topnav a:not(:first-child) {
     display: none; }
 
   .topnav a.icon {
     float: right;
     display: block; } }
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 760px) {
   .topnav.responsive {
-    position: right;
-    align-items: none; }
+    position: right; }
 
   .topnav.responsive .icon {
     position: absolute;
@@ -1486,11 +1484,12 @@ body {
     font-size: auto;
     font-weight: bold;
     list-style-type: none;
-    flex: 1; }
+    flex: 1;
+    line-height: 25px; }
     .row ul.no_bullet li.icon {
       background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
       padding-left: 60px;
-      padding-right: 100px;
+      padding-right: 20px;
       padding-top: 3px;
       padding-bottom: 7%; }
   .row img {
