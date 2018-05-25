@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The header for our theme
@@ -8,46 +9,28 @@
  *
  * @package blueflowedmedia
  */
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed container-navbar">
-      <!-- navbar left -->
-			<div class="nav-left">
-
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png"  height="300px" width="300px" alt="Bridge 2 Canada"></a>
+<body>
+<div class="topnav" id="myTopnav">
 
 
-			</div>
-
-
-      <!-- navbar right -->
-      <div class="nav-right">
-		<ul>
-			<li><a href="" >About</button></a></li>
-			<li><a href="" >Objectives</button></a></li>
-			<li><a href="" >Contact</button></a></li>
-		</ul>
-
-      </div>
-		</nav>
-	</header>
-
-	<div id="content" class="site-content">
-	</header>
+			<a href="#" id="nav-left" class="responsive" style="flex-grow: 1"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+			<a style="flex-grow: 8"></a>
+			<a href="#" id="aboutlink" style="flex-grow: 1">About</a>
+			<a href="#" id="objectiveslink" style="flex-grow: 1">Objectives</a>
+			<a href="#" id="contactslink" style="flex-grow: 1">Contact</a>
+  		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
 </div>
+
 </body>
-</html>

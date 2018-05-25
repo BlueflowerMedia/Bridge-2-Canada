@@ -120,9 +120,58 @@ body {
       padding-left: 50px;
       padding-right: 10px;
       list-style-image: url(images/b2c-icon-maple-leaf.png);
+
+
     }
   }
 }
+
+//objectives using flexbox
+.row{
+  display: flex;
+
+
+
+  ul.no_bullet {
+    font-family: $font-primary;
+    font-size: auto;
+    font-weight: bold;
+    list-style-type: none;
+    flex: 1;
+
+    li.icon{
+    background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
+
+
+padding-left: 60px;
+padding-right: 100px;
+padding-top: 3px;
+padding-bottom: 7%;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  @include mobile{
+    flex-flow: column;
+  }
+  .content{
+    flex:1;
+
+    @include mobile {
+      order: 2;
+    }
+  }
+  .image{
+    flex: 1;
+    @include mobile {
+      order: 1;
+    }
+  }
+}
+
 
 //Contact us section
 .contactus {
@@ -153,6 +202,7 @@ body {
   .contactus-middle p {
     font-size: 1.5rem;
     text-align: center;
+    font-weight: bold;
   }
 
   .contactus-bottom {
@@ -166,17 +216,27 @@ body {
         font-size: 1.5rem;
       }
       img {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         margin-right: 10px;
+      }
+      @include mobile{
+        align-items: left;
       }
     }
     .contactus-right {
       flex: 1;
+
+      align-items:right;
         form input, textarea {
         background-color: $brown;
         color: $white;
+            float: right;
+        @include mobile{
+          float: right;
+        }
       }
+
       .wpcf7-submit {
         text-transform: uppercase;
         background-color: $red;
@@ -206,5 +266,3 @@ body {
     text-align: center;
   }
 }
-
-
