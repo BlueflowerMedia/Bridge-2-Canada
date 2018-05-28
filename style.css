@@ -1403,13 +1403,12 @@ img {
   transform: translateY(0); }
 
 ul {
-  text-align: center;
-  color: white;
+  color: #2a2a2a;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   list-style-type: none;
   line-height: 60px;
-  margin-top: 150px; }
+  text-align: left; }
 
 .row .three {
   padding: 80px 30px;
