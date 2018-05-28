@@ -1,12 +1,19 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+// function myFunction() {
+//     var x = document.getElementById("myTopnav");
+//     if (x.className === "topnav") {
+//         x.className += " responsive";
+//
+//     } else {
+//         x.className = "topnav";
+//     }
+// }
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    $("#dropdown-menu").toggleClass("drop");
+  });
+});
 
-    } else {
-        x.className = "topnav";
-    }
-}
 
 function goToByScroll(id) {
     // Reove "link" from the ID

@@ -16,8 +16,27 @@ body {
   font-family: $font-primary;
 }
 
+.top-navigation {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .nav-item-left {
+    a>img {
+      width:auto;
+      height: 60px;
+    }
+  }
+  .nav-item-right {
+    ul {
+      display: flex;
+    }
+  }
+}
+
 //banner section
 .banner {
+
   background-image: url(images/pexels-photo-756790.jpeg);
   background-size: cover;
   background-position: center;
@@ -25,33 +44,39 @@ body {
   height: 70vh;
   .right-top {
     position: absolute;
-    margin-left: 55%;
-    margin-top: 10%;
-    p {
-      font-size: 2.5rem;
-      line-height: 1.4;
+    margin-left: 50%;
+    margin-top: 5%;
+    @media  only screen  and (max-width: 800px){
+      position: absolute;
+      margin-top: 20%;
+      background-position: left;
+    }
+    h1 {
+      color: $white;
     }
   }
 }
 
 //About us section
 .aboutus {
-  .separator {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      height: 15vh;
-  }
-  .separator::before, .separator::after {
-      content: '';
-      flex: 1;
-      border-bottom: 15px solid $red;
-  }
-  .separator::before {
-      margin-right: 1.5em;
-  }
-  .separator::after {
-      margin-left: 1.5em;
+  .aboutus-top {
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 15vh;
+    }
+    .separator::before, .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 15px solid $red;
+    }
+    .separator::before {
+        margin-right: 1.5em;
+    }
+    .separator::after {
+        margin-left: 1.5em;
+    }
   }
 
   .aboutus-bottom {
@@ -60,14 +85,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 1000px rgba($lighter-white,.8);
-    height: 80vh;
+    height: 70vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
     p {
       width: 50%;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       color: $white;
     }
   }
@@ -117,7 +142,7 @@ body {
       object-fit: cover;
     }
     ul {
-      padding-left: 50px;
+      padding-left: 70px;
       padding-right: 10px;
       list-style-image: url(images/b2c-icon-maple-leaf.png);
 
@@ -127,12 +152,9 @@ body {
 }
 
 //objectives using flexbox
-.row{
+.row {
   display: flex;
-
-
-
-  ul.no_bullet {
+  .no_bullet {
     font-family: $font-primary;
     font-size: auto;
     font-weight: bold;
@@ -148,11 +170,12 @@ padding-left: 60px;
 padding-right: 20px;
 padding-top: 3px;
 padding-bottom: 7%;
+text-align: left;
     }
   }
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
   }
   @include mobile{
@@ -160,6 +183,7 @@ padding-bottom: 7%;
   }
   .content{
     flex:1;
+    margin-top: 30px;
 
     @include mobile {
       order: 2;
@@ -213,6 +237,7 @@ padding-bottom: 7%;
     justify-content: space-between;
     .contactus-left {
       flex: 1;
+      min-width: 200px;
       p {
         font-size: 1.5rem;
       }
@@ -227,13 +252,14 @@ padding-bottom: 7%;
     }
     .contactus-right {
       flex: 1;
+      min-width: 200px;
 
       align-items:right;
         form input, textarea {
         background-color: $brown;
         color: $white;
             float: right;
-        @include mobile{
+        @include mobile {
           float: right;
         }
       }
@@ -250,6 +276,10 @@ padding-bottom: 7%;
       .req {
         color: $red;
       }
+
+      .wpcf7-text {
+        width: 100%;
+      }
     }
   }
 
@@ -260,10 +290,15 @@ padding-bottom: 7%;
   background-color: $black;
   p {
     color: $white;
-    font-size: 1.5rem;
+    //font-size: 1.2rem;
   }
   .footer-container {
     margin: 40px;
     text-align: center;
   }
+}
+//Navbar
+.topnav {
+  display: flex;
+  justify-content: space-between;
 }
