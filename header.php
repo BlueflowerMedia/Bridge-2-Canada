@@ -18,6 +18,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<?php wp_head(); ?>
 </head>
 
@@ -28,29 +30,23 @@
 	</div>
 	<div class="options">
 		<a href="#about">About</a>
-		<a href="#objectives">Objectives</a>
-		<a href="#contacts">Contact</a>
-		<!-- <a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a> -->
+		<a href="#objectives" >Objectives</a>
+		<a href="#contacts" >Contact</a>
+
+		<div class="hamburger" id="hamburger-9">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</div>
+
+		<div id="dropdown-menu" class="dropdown">
+		  <ul>
+		   	<li ><a href="#about">About</a></li>
+		   <li><a href="#objectives">Objectives</a></li>
+		   <li><a href="#contacts">Contact</a></li>
+		  </ul>
+		</div>
 	</div>
 </div>
-<!-- Mobile -->
-	<div id="myTopnav" class="dropdown">
-		<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
-		<ul class="nav_items">
-		 <li href="#about">About</li>
-		 <li href="#objectives">Objectives</li>
-		 <li href="#contacts">Contact</li>
-		</ul>
-	</div>
-	<div class="row cf">
-			<div class="three col">
-				<div class="hamburger" id="hamburger-9">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
-			</div>
-	</div>
-
 
 </body>
