@@ -23,16 +23,14 @@
 
 <body>
 <div class="topnav" id="myTopnav">
-	<div class="logo">
-		<a href="#" id="nav-left" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
-	</div>
-	<div class="options">
-		<a href="#" id="aboutlink">About</a>
-		<a href="#" id="objectiveslink">Objectives</a>
-		<a href="#" id="contactslink">Contact</a>
-		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-	</div>
 
+
+			<a href="#" id="nav-left" class="responsive" style="flex-grow: 1"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+			<a style="flex-grow: 8"></a>
+			<a href="#" id="aboutlink" style="flex-grow: 1">About</a>
+			<a href="#" id="objectiveslink" style="flex-grow: 1">Objectives</a>
+			<a href="#" id="contactslink" style="flex-grow: 1">Contact</a>
+  		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
 </div>
 
 </body>

@@ -33,16 +33,19 @@
   color: white;
 
 }
+
 img {
-    width:75%;
+  flex:1;
+    width:80%;
     height:auto;
 }
+
 .topnav .icon {
   display: none;
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 765px) {
  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -50,9 +53,10 @@ img {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 765px) {
   .topnav.responsive {
     position: right;
+    align-items: none;
 }
   .topnav.responsive .icon {
     position: absolute;
