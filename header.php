@@ -38,14 +38,14 @@
 			<span class="line"></span>
 			<span class="line"></span>
 		</div>
-
-		<div id="dropdown-menu" class="dropdown">
-		  <ul>
-		   	<li ><a href="#about">About</a></li>
-		   <li><a href="#objectives">Objectives</a></li>
-		   <li><a href="#contacts">Contact</a></li>
-		  </ul>
-		</div>
+	</div>
+	<div id="dropdown-menu" class="dropdown">
+	  <ul>
+	   	<li ><a href="#about">About</a></li>
+	   <li><a href="#objectives">Objectives</a></li>
+	   <li><a href="#contacts">Contact</a></li>
+	  </ul>
+	</div>
 	</div>
 </div>
 

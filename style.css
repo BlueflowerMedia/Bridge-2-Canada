@@ -1350,7 +1350,6 @@ button.nav-contact {
   float: right; }
 
 .topnav a:hover {
-  background-color: #ddd;
   color: black; }
 
 .active {
@@ -1365,7 +1364,7 @@ img {
 .topnav .icon {
   display: none; }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 760px) {
   .topnav .options a {
     display: none; }
 
@@ -1391,21 +1390,22 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 20%;
   background: red;
-  transform: translateY(-100%);
-  transition: transform 0.3s linear; }
+  transform: translateY(-110%);
+  transition: transform 0.3s linear;
+  text-align: center; }
+  .dropdown ul {
+    list-style-type: none; }
+    .dropdown ul li {
+      color: #2a2a2a;
+      font-size: 20px; }
+      .dropdown ul li a:click {
+        background-color: #ff0000; }
 
 .drop {
-  transform: translateY(0); }
-
-ul {
-  color: #2a2a2a;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  list-style-type: none;
-  line-height: 60px;
-  text-align: left; }
+  transform: translateY(0);
+  margin-top: 15%; }
 
 .row .three {
   padding: 80px 30px;
@@ -1416,10 +1416,15 @@ ul {
   color: #ff0000;
   text-align: center; }
 
+.hamburger {
+  z-index: 999;
+  top: 20px;
+  right: 20px; }
+
 .hamburger .line {
   width: 50px;
   height: 5px;
-  background-color: #ecf0f1;
+  background-color: #ff0000;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1458,7 +1463,7 @@ ul {
   transition: all 0.3s ease-in-out; }
 
 #hamburger-9.is-active:before {
-  border: 5px solid #ecf0f1; }
+  border: 5px solid #ff0000; }
 
 #hamburger-9.is-active .line {
   width: 35px; }

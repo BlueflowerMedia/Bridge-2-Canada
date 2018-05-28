@@ -26,7 +26,7 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  //background-color: #ddd;
   color: black;
 }
 
@@ -47,8 +47,7 @@ img {
 }
 
 
-@media screen and (max-width: 760px) {
- //.topnav a:not(:first-child) {display: none;}
+@include mobile {
  .topnav {
    .options a {display: none;}
  }
@@ -83,24 +82,30 @@ img {
    top: 0;
    left: 0;
    width: 100%;
-   height: 70%;
+   height: 20%;
    background: red;
-   transform: translateY(-100%);
+   transform: translateY(-110%);
    transition: transform 0.3s linear;
+   text-align: center;
+   //margin-top: 100px;
+   ul{
+     list-style-type: none;
+     li {
+       color: $black;
+       font-size: 20px;
+       a:click {
+         background-color: #ff0000;
+       }
+     }
+   }
 }
 
 .drop{
    transform: translateY(0);
+   margin-top: 15%;
 }
 
-ul{
-  color: $black;
-  font-family: "Times New Roman", Times, serif;
-  font-size:20px;
-  list-style-type: none;
-  line-height: 60px;
-  text-align: left;
-}
+
 
 
 .row .three{
@@ -113,10 +118,15 @@ ul{
   text-align: center;
 }
 
+.hamburger {
+  z-index: 999;
+  top: 20px;
+  right: 20px;
+}
 .hamburger .line{
   width: 50px;
   height: 5px;
-  background-color: #ecf0f1;
+  background-color: #ff0000;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -162,7 +172,7 @@ ul{
 }
 
 #hamburger-9.is-active:before{
-  border: 5px solid #ecf0f1;
+  border: 5px solid #ff0000;
 }
 
 #hamburger-9.is-active .line{
