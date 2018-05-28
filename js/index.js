@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // function myFunction() {
 //     var x = document.getElementById("myTopnav");
 //     if (x.className === "topnav") {
@@ -13,6 +14,13 @@ $(document).ready(function(){
     $("#dropdown-menu").toggleClass("drop");
   });
 });
+=======
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+>>>>>>> b30c40788227284de4492c7f81361ed2397a21bb
 
 
 function goToByScroll(id) {
@@ -30,4 +38,11 @@ $("#myTopnav > a").click(function (e) {
     e.preventDefault();
     // Call the scroll function
     goToByScroll($(this).attr("id"));
+});
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    $("#myTopnav").toggleClass("drop");
+  });
 });

@@ -22,7 +22,11 @@ to know.</p>
 </section>
 
 <!--Objectives-new-->
+<<<<<<< HEAD
 <section class="objectives" id="objectives">
+=======
+<section class="objectives">
+>>>>>>> b30c40788227284de4492c7f81361ed2397a21bb
   <div class="objectives-top">
     <div class="separator2"><h2>Objectives</h2></div>
   </div>
