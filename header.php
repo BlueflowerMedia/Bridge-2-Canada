@@ -29,7 +29,6 @@
 		<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
 	</div>
 	<div class="options">
-<<<<<<< HEAD
 		<a href="#about">About</a>
 		<a href="#objectives" >Objectives</a>
 		<a href="#contacts" >Contact</a>
@@ -39,56 +38,15 @@
 			<span class="line"></span>
 			<span class="line"></span>
 		</div>
-=======
-		<a href="#" id="aboutlink">About</a>
-		<a href="#" id="objectiveslink">Objectives</a>
-		<a href="#" id="contactslink">Contact</a>
-		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-	</div>
-<<<<<<< HEAD
-=======
->>>>>>> b30c40788227284de4492c7f81361ed2397a21bb
 
+		<div id="dropdown-menu" class="dropdown">
+		  <ul>
+		   	<li ><a href="#about">About</a></li>
+		   <li><a href="#objectives">Objectives</a></li>
+		   <li><a href="#contacts">Contact</a></li>
+		  </ul>
+		</div>
 	</div>
 </div>
-
-<<<<<<< HEAD
-<div id="dropdown-menu" class="dropdown">
-  <ul>
-   	<li ><a href="#about">About</a></li>
-   <li><a href="#objectives">Objectives</a></li>
-   <li><a href="#contacts">Contact</a></li>
-  </ul>
-=======
-			<a href="#" id="nav-left" class="responsive" style="flex-grow: 1"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
-			<a style="flex-grow: 8"></a>
-			<a href="#" id="aboutlink" style="flex-grow: 1">About</a>
-			<a href="#" id="objectiveslink" style="flex-grow: 1">Objectives</a>
-			<a href="#" id="contactslink" style="flex-grow: 1">Contact</a>
-  		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
->>>>>>> abca07ba5d39e2ee15a4e83ae4368333e83a64d1
->>>>>>> b30c40788227284de4492c7f81361ed2397a21bb
-</div>
-<!-- Mobile -->
-	<div id="myTopnav" class="dropdown">
-		<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
-		<ul class="nav_items">
-		 <li href="#">About</li>
-		 <li href="#">Objectives</li>
-		 <li href="#">Contact</li>
-		</ul>
-	</div>
-	<div class="row cf">
-			<div class="three col">
-				<div class="hamburger" id="hamburger-9">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
-			</div>
-	</div>
-
-
-
 
 </body>
