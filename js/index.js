@@ -1,3 +1,4 @@
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -23,4 +24,11 @@ $("#myTopnav > a").click(function (e) {
     e.preventDefault();
     // Call the scroll function
     goToByScroll($(this).attr("id"));
+});
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    $("#myTopnav").toggleClass("drop");
+  });
 });

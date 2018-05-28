@@ -32,7 +32,25 @@
 		<a href="#" id="contactslink">Contact</a>
 		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 	</div>
-
 </div>
+<!-- Mobile -->
+	<div id="myTopnav" class="dropdown">
+		<a href="#" class="responsive"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+		<ul class="nav_items">
+		 <li href="#">About</li>
+		 <li href="#">Objectives</li>
+		 <li href="#">Contact</li>
+		</ul>
+	</div>
+	<div class="row cf">
+			<div class="three col">
+				<div class="hamburger" id="hamburger-9">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+			</div>
+	</div>
+
 
 </body>
