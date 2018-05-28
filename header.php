@@ -32,6 +32,17 @@
 		<a href="#" id="contactslink">Contact</a>
 		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 	</div>
+<<<<<<< HEAD
+=======
+
+
+			<a href="#" id="nav-left" class="responsive" style="flex-grow: 1"><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-logo-website.png" alt="bridge 2 Canada"></a>
+			<a style="flex-grow: 8"></a>
+			<a href="#" id="aboutlink" style="flex-grow: 1">About</a>
+			<a href="#" id="objectiveslink" style="flex-grow: 1">Objectives</a>
+			<a href="#" id="contactslink" style="flex-grow: 1">Contact</a>
+  		<a href="javascript:void(0);"  id="nav-right" class="icon" onclick="myFunction()">  <i class="fa fa-bars"></i></a>
+>>>>>>> abca07ba5d39e2ee15a4e83ae4368333e83a64d1
 </div>
 <!-- Mobile -->
 	<div id="myTopnav" class="dropdown">
