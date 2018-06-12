@@ -22,13 +22,13 @@ to know.</p>
 </section>
 
 <!--Objectives-new-->
-<section class="objectives" id="objectives">
+<!-- <section class="objectives" id="objectives"> -->
 <section class="objectives">
   <div class="objectives-top">
     <div class="separator2"><h2>Objectives</h2></div>
   </div>
 
-<div class="row">
+<div class="row obj-height">
   <div class="content">
     <ul class="no_bullet">
       <li class="icon">To promote culture and language and goodwill
@@ -45,7 +45,7 @@ to know.</p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/architecture-attraction-british-columbia-63332.jpg" alt="image">
   </div>
 </div>
-<div class="row">
+<div class="row obj-height">
   <div class="image">
     <img src="<?php echo get_template_directory_uri(); ?>/images/pexels-photo-313693.jpeg" alt="image">
   </div>
@@ -74,20 +74,24 @@ to know.</p>
   <div class="contactus-top">
     <div class="separator3"><h2>Contact</h2></div>
   </div>
-  <div class="contactus-middle">
-    <p>We would love to hear from you, and we will reply to
-        your email withing 48 hours.</p>
-  </div>
-  <div class="contactus-bottom">
-    <div class="contactus-left">
-      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416) 123-1234</strong></p>
-      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="image"> <strong>123 Danforth Ave, Scarborough ON</strong></p>
-      <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>bridge2ca@gmail.com</strong></p>
+
+  <div class="container">
+    <div class="contactus-middle">
+      <p>We would love to hear from you, and we will reply to
+          your email withing 48 hours.</p>
     </div>
-    <div class="contactus-right">
-      <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
+    <div class="contactus-bottom">
+      <div class="contactus-left">
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416) 123-1234</strong></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="image"> <strong>123 Danforth Ave, Scarborough ON</strong></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>bridge2ca@gmail.com</strong></p>
+      </div>
+      <div class="contactus-right">
+        <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
+      </div>
     </div>
   </div>
+
 
 </section>
 

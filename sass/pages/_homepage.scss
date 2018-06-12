@@ -37,7 +37,8 @@ body {
 //banner section
 .banner {
 
-  background-image: url(images/pexels-photo-756790.jpeg);
+  //background-image: url(images/pexels-photo-756790.jpeg);
+  background-image: url(images/bridge-2-canada-banner-color-revised-min.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,6 +50,8 @@ body {
     @media  only screen  and (max-width: 800px){
       position: absolute;
       margin-top: 20%;
+      margin-left: 0%;
+      text-align: center;
       background-position: left;
     }
     h1 {
@@ -86,6 +89,10 @@ body {
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 1000px rgba($lighter-white,.8);
     height: 70vh;
+
+    @include mobile {
+      height: 50vh;
+    }
 
     display: flex;
     justify-content: center;
@@ -153,6 +160,15 @@ body {
 }
 
 //objectives using flexbox
+.obj-height {
+  //height: 400px;
+  @include tablet {
+    height: auto;
+  }
+  @include mobile {
+    height: auto;
+  }
+}
 .row {
   display: flex;
   .no_bullet {
@@ -162,6 +178,14 @@ body {
     list-style-type: none;
     flex: 1;
     line-height: 25px;
+
+    padding: 10%;
+    @include tablet {
+      padding: 0%;
+    }
+    @include mobile {
+      padding: 0%;
+    }
 
     li.icon{
     background: url(images/b2c-icon-maple-leaf-1.png) no-repeat left top;
@@ -201,6 +225,10 @@ color: black;
 
 
 //Contact us section
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .contactus {
   .contactus-top {
     background-color: $white;
