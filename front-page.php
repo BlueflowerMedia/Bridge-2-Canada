@@ -80,10 +80,6 @@ to know.</p>
       <p>We would love to hear from you, and we will reply to
           your email withing 48 hours.</p>
     </div>
-<<<<<<< HEAD
-    <div class="contactus-right">
-      <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); } ?>
-=======
     <div class="contactus-bottom">
       <div class="contactus-left">
         <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416) 123-1234</strong></p>
@@ -93,7 +89,6 @@ to know.</p>
       <div class="contactus-right">
         <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
       </div>
->>>>>>> 84bec6f2f192921a1154ae90a4baea98a87a12c5
     </div>
   </div>
 
