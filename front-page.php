@@ -85,7 +85,7 @@ to know.</p>
       <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>bridge2ca@gmail.com</strong></p>
     </div>
     <div class="contactus-right">
-      <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
+      <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); } ?>
     </div>
   </div>
 
