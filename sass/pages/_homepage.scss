@@ -36,9 +36,26 @@ body {
 
 //banner section
 .banner {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bridge-2-canada-banner-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  .right-top {
+    text-align: center;
+    h1 {
+      color: $white;
+    }
+  }
+}
+/*
+.banner {
   //background-image: url(images/pexels-photo-756790.jpeg);
-  background-image: url(images/bridge-2-canada-banner-color-revised-min.png);
+  //background-image: url(images/bridge-2-canada-banner-color-revised-min.png);
+  background-image: url(images/bridge-2-canada-banner-2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,6 +76,8 @@ body {
     }
   }
 }
+
+*/
 
 //About us section
 .aboutus {
@@ -225,7 +244,7 @@ color: black;
 
 
 //Contact us section
-.container {
+.contactus-container {
   max-width: 1200px;
   margin: 0 auto;
 }

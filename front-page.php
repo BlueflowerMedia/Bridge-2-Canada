@@ -75,7 +75,7 @@ to know.</p>
     <div class="separator3"><h2>Contact</h2></div>
   </div>
 
-  <div class="container">
+  <div class="contactus-container">
     <div class="contactus-middle">
       <p>We would love to hear from you, and we will reply to
           your email withing 48 hours.</p>
