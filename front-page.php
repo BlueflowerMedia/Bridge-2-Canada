@@ -23,7 +23,7 @@ to know.</p>
 
 <!--Objectives-new-->
 <!-- <section class="objectives" id="objectives"> -->
-<section class="objectives">
+<section class="objectives" id="objectives">
   <div class="objectives-top">
     <div class="separator2"><h2>Objectives</h2></div>
   </div>
