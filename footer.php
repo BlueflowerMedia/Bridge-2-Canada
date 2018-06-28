@@ -11,7 +11,7 @@
 
 ?>
 
-	</div><!-- #content -->
+	<!-- #content -->
 
 	<div class="margin-for-footer"></div>
 	<footer id="colophon" class="site-footer">

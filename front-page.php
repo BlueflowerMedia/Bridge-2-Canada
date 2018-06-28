@@ -82,9 +82,19 @@ to know.</p>
     </div>
     <div class="contactus-bottom">
       <div class="contactus-left">
-        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416) 123-1234</strong></p>
-        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="image"> <strong>123 Danforth Ave, Scarborough ON</strong></p>
-        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>bridge2ca@gmail.com</strong></p>
+        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="">
+          <strong>(416)857-1654</strong>
+        </div>
+        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-fax.png" alt="">
+           <strong>(416)907-3300</strong>
+        </div>
+        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="">
+          <strong>2425 Eglinton Ave East, Scarborough ON, M1K 5G8</strong>
+        </div>
+        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="">
+          <strong>contact@bridge2canada.org</strong>
+        </div>
+        
       </div>
       <div class="contactus-right">
         <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
