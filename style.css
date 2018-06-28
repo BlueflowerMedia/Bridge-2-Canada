@@ -1514,24 +1514,46 @@ body {
     display: flex; }
 
 .banner {
-  background-image: url(images/bridge-2-canada-banner-color-revised-min.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bridge-2-canada-banner-2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 70vh; }
   .banner .right-top {
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 5%; }
-    @media only screen and (max-width: 800px) {
-      .banner .right-top {
-        position: absolute;
-        margin-top: 25%;
-        margin-left: 20%;
-        background-position: left; } }
+    text-align: center; }
     .banner .right-top h1 {
       color: white; }
 
+/*
+.banner {
+  //background-image: url(images/pexels-photo-756790.jpeg);
+  //background-image: url(images/bridge-2-canada-banner-color-revised-min.png);
+  background-image: url(images/bridge-2-canada-banner-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  .right-top {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%;
+    @media  only screen  and (max-width: 800px){
+      position: absolute;
+      margin-top: 25%;
+      margin-left: 20%;
+
+      background-position: left;
+    }
+    h1 {
+      color: $white;
+    }
+  }
+}
+
+*/
 .aboutus .aboutus-top .separator {
   display: flex;
   align-items: center;
@@ -1649,7 +1671,7 @@ body {
       .row .image {
         order: 1; } }
 
-.container {
+.contactus-container {
   max-width: 1200px;
   margin: 0 auto; }
 
