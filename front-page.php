@@ -23,7 +23,7 @@ to know.</p>
 
 <!--Objectives-new-->
 <!-- <section class="objectives" id="objectives"> -->
-<section class="objectives" id="objectives">
+<section class="objectives">
   <div class="objectives-top">
     <div class="separator2"><h2>Objectives</h2></div>
   </div>
@@ -75,26 +75,17 @@ to know.</p>
     <div class="separator3"><h2>Contact</h2></div>
   </div>
 
-  <div class="contactus-container">
+  <div class="container">
     <div class="contactus-middle">
       <p>We would love to hear from you, and we will reply to
           your email withing 48 hours.</p>
     </div>
     <div class="contactus-bottom">
       <div class="contactus-left">
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="">
-          <strong>(416)857-1654</strong>
-        </div>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-fax.png" alt="">
-           <strong>(416)907-3300</strong>
-        </div>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="">
-          <strong>2425 Eglinton Ave East, Scarborough ON, M1K 5G8</strong>
-        </div>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="">
-          <strong>contact@bridge2canada.org</strong>
-        </div>
-        
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-phone.png" alt="image"><strong>(416)857-1654</strong></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-fax.png" alt="image"><strong>(416)907-3300</strong></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-location.png" alt="image"> <strong>2425 Eglinton Ave East,<br>Scarborough ON, M1K 5G8</strong></p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/images/b2c-icon-mail.png" alt="image"><strong>contact@bridge2canada.org</strong></p>
       </div>
       <div class="contactus-right">
         <?php if ( shortcode_exists( 'contact-form-7' ) ) { echo do_shortcode('[contact-form-7 id="36" title="Contact form 1"]'); } ?>
