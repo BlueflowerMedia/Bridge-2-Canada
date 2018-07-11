@@ -13,7 +13,7 @@
     <div class="separator"><h2>About Us</h2></div>
   </div>
   <div class="aboutus-bottom">
-    <p>Bride to Canada is a Non-Profit Organization that helps
+    <p>Bridge to Canada is a Non-Profit Organization that helps
 people from all over the world move to Canada. Whether
 you are looking to come to Canada to work, study or just
 live, our organization can guide you through what you need
